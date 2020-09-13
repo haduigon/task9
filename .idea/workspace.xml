@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef665f7c-b066-4cc6-a633-9676e87ee631" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="ProjectId" id="1h5sVE5LfnQXPesLAlFiW6W6Wzd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="sort.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/sort.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.sort.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef665f7c-b066-4cc6-a633-9676e87ee631" name="Default Changelist" comment="" />
+      <created>1599312308669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599312308669</updated>
+      <workItem from="1599312309781" duration="23366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="43" y="112" key="#CLI_Interpreters" timestamp="1599731642579">
+      <screen x="43" y="23" width="1237" height="777" />
+    </state>
+    <state x="43" y="112" key="#CLI_Interpreters/43.23.1237.777@43.23.1237.777" timestamp="1599731642579" />
+    <state x="43" y="100" key="#PHP" timestamp="1599731644804">
+      <screen x="43" y="23" width="1237" height="777" />
+    </state>
+    <state x="43" y="100" key="#PHP/43.23.1237.777@43.23.1237.777" timestamp="1599731644804" />
+    <state x="513" y="304" key="Github.ShareDialog" timestamp="1600008087854">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="513" y="304" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1600008087854" />
+    <state x="335" y="112" key="Github.UntrackedFilesDialog" timestamp="1600008115640">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="335" y="112" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1600008115640" />
+    <state x="450" y="483" key="NewPhpFileDialog" timestamp="1599998116960">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="450" y="483" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1599998116960" />
+    <state x="477" y="492" key="NewPhpFileDialog/41.23.1239.777@41.23.1239.777" timestamp="1599400871873" />
+    <state x="478" y="492" key="NewPhpFileDialog/43.23.1237.777@43.23.1237.777" timestamp="1599827195494" />
+    <state x="479" y="492" key="NewPhpFileDialog/44.23.1236.777@44.23.1236.777" timestamp="1599312319137" />
+    <state x="41" y="78" key="SettingsEditor" timestamp="1599473789713">
+      <screen x="41" y="23" width="1239" height="777" />
+    </state>
+    <state x="39" y="78" key="SettingsEditor/39.23.1241.777@39.23.1241.777" timestamp="1599473221942" />
+    <state x="41" y="78" key="SettingsEditor/41.23.1239.777@41.23.1239.777" timestamp="1599473789713" />
+    <state x="661" y="23" width="598" height="735" key="find.popup" timestamp="1599998250646">
+      <screen x="41" y="23" width="1239" height="777" />
+    </state>
+    <state x="661" y="23" width="598" height="735" key="find.popup/41.23.1239.777@41.23.1239.777" timestamp="1599998250646" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1599998217612">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1599998217612" />
+  </component>
+</project>
