@@ -479,7 +479,7 @@ function showCategoryProducts( )
         header("Location: /?action=adminCategories&error=Wrong ID given");
     }
 
-    $categories = getCategoriesList();
+   
     $products = showProductsList();
 
     $len = count($products);
