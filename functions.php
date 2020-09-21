@@ -471,4 +471,45 @@ function adminRemoveUserEndpoint()
     header("Location: /?action=adminCategories&message=The user with id=$userId has been removed!");
 }
 
+function showCategoryProducts( )
+{
+    $categoryId = $_GET['categoryId'] ?? '';
+
+    if (strlen($categoryId) != 32) {
+        header("Location: /?action=adminCategories&error=Wrong ID given");
+    }
+
+    $categories = getCategoriesList();
+    $products = showProductsList();
+
+    $len = count($products);
+
+
+    for ($i = 0; $i < $len; $i++) {
+        if ($products[$i]['category_id'] === $categoryId) {
+            $products2[] = $products[$i];
+        }
+    }
+    if (empty($products2[0]))
+    {
+    header("Location: /?error=Nothing is there&categoryId=$categoryId");
+    return;
+}
+    return $products2;
+
+
+}
+    function showCategoryProductsEndPoint2()
+    {
+
+        global $smarty;
+        $smarty->assign('categories', getCategoriesList());
+        $smarty->assign('products2', showCategoryProducts());
+        $smarty->display('index.tpl');
+
+    }
+
+
+?>
+
 ?>
