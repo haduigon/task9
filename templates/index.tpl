@@ -1,74 +1,46 @@
 {extends file="layout.tpl"}
 {block name="body"}
 <div class="row">
+    {if isset($smarty.get.error)}
+        <div class="alert alert-danger" role="alert">{{$smarty.get.error}}</div>
+    {/if}
     <div class="col-md-3">
         <ul class="nav nav-pills nav-stacked nav-pills-stacked-example">
             <li role="presentation" class="active"><a href="/">All</a></li>
             {foreach from=$categories item=category}
-                <li role="presentation"><a href="/?categoryId={$category['id']}">{$category['name']}</a></li>
+                {if $smarty.get.categoryId==={$category['id']} }
+                <li role="presentation" class="active" ><a href="/?action=showCategoryProducts&categoryId={$category['id']}">{$category['name']}</a></li>
+                {else}
+                <li role="presentation"  ><a href="/?action=showCategoryProducts&categoryId={$category['id']}">{$category['name']}</a></li>
+                {/if}
             {/foreach}
         </ul>
     </div>
+
     <div class="col-md-9">
 
-
         <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="1.png" alt="...">
-                    <div class="caption">
-                        <h3>Product 1</h3>
-                        <p>100 $</p>
-                        <p><a href="#" class="btn btn-success" role="button">Add to cart</a></p>
-                    </div>
-                </div>
-            </div>
+
+            {foreach from=$products2 item=product}
 
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <img src="1.png" alt="...">
+
+        <img src={$product['image']}  alt="...">
                     <div class="caption">
-                        <h3>Product 1</h3>
-                        <p>100 $</p>
-                        <p><a href="#" class="btn btn-success" role="button">Add to cart</a></p>
+                        <h3>{$product['name']}</h3>
+                        <p>{$product['price']}</p>
                     </div>
+
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="1.png" alt="...">
-                    <div class="caption">
-                        <h3>Product 1</h3>
-                        <p>100 $</p>
-                        <p><a href="#" class="btn btn-success" role="button">Add to cart</a></p>
-                    </div>
+            {/foreach}
                 </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="1.png" alt="...">
-                    <div class="caption">
-                        <h3>Product 1</h3>
-                        <p>100 $</p>
-                        <p><a href="#" class="btn btn-success" role="button">Add to cart</a></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="1.png" alt="...">
-                    <div class="caption">
-                        <h3>Product 1</h3>
-                        <p>100 $</p>
-                        <p><a href="#" class="btn btn-success" role="button">Add to cart</a></p>
-                    </div>
-                </div>
-            </div>
-
 
         </div>
-    </div>
+
+
+
+
     {/block}
