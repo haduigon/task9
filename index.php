@@ -64,6 +64,9 @@ switch ($action) {
     case "adminRemoveUser":
         adminRemoveUserEndpoint();
         break;
+    case "showCategoryProducts":
+        showCategoryProductsEndPoint2();
+        break;
     default:
         mainPageEndpoint();
         break;
